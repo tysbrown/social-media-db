@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DdlMappings">
     <mapping uuid="cee5b2f5-4f75-4a87-bd0c-5d6c6a0b3f47" name="socialMediaDB@social-media-db.ch12zfzjvjov.us-east-1.rds.amazonaws.com Mapping">
-      <data-sources db="f64164ac-b161-4f08-8781-3c05d8a25bb5" />
+      <data-sources db="f64164ac-b161-4f08-8781-3c05d8a25bb5" ddl="053e066f-8324-46bd-8323-a329c018dce9" />
     </mapping>
   </component>
 </project>

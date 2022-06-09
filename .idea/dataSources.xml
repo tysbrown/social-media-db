@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="socialMediaDB@social-media-db.ch12zfzjvjov.us-east-1.rds.amazonaws.com" uuid="f64164ac-b161-4f08-8781-3c05d8a25bb5">
+    <data-source source="LOCAL" name="socialMediaDB@social-media-db.ch12zfzjvjov.us-east-1.rds.amazonaws.com" uuid="dec25c14-00ec-403a-b4d4-e3459a995790">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://social-media-db.ch12zfzjvjov.us-east-1.rds.amazonaws.com:5432/socialMediaDB</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="AWS.RdsSigningPort" value="5432" />
+        <property name="AWS.RegionId" value="us-east-1" />
+        <property name="AWS.CredentialId" value="profile:tyler" />
+        <property name="AWS.RdsSigningHost" value="social-media-db.ch12zfzjvjov.us-east-1.rds.amazonaws.com" />
+      </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
